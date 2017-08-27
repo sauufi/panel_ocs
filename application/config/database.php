@@ -40,7 +40,7 @@ $db['default']['password'] = "ghIVX1xprcZG";
 $db['default']['database'] = "OCSREBORN";
 
 // The following values can probably stay the same.
-$db['default']['hostname'] = "localhost";
+$db['default']['hostname'] = "ptc-sauuficloud.rhcloud.com";
 $db['default']['dbdriver'] = "mysqli"; //Updated to latest driver.
 $db['default']['dbprefix'] = "";
 $db['default']['pconnect'] = TRUE;
