@@ -26,7 +26,7 @@ $root.= str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = "https://sshocean.com";
+$config['base_url'] = "https://server2.sshocean.com";
 
 /*
 |--------------------------------------------------------------------------
