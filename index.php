@@ -1,7 +1,7 @@
 <?php
 // Domain-based environment
 
-if ($_SERVER['SERVER_NAME'] == 'sshocean.com') {
+if ($_SERVER['SERVER_NAME'] == 'server2.sshocean.com') {
     define('ENVIRONMENT', 'development');
 } else {
     define('ENVIRONMENT', 'production');
